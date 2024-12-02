@@ -1,0 +1,81 @@
+# Compiled source files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build directories
+/target/
+/out/
+
+# IntelliJ IDEA
+.idea/
+/*.iml
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/libraries
+
+# VS Code
+.vscode/
+
+# Eclipse
+/.settings/
+/.project
+.classpath
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+# Gradle
+.gradle/
+/build/
+/*.jar
+/*.war
+/*.ear
+
+# Environment and configuration files
+.env
+application.yml
+application.properties
+
+# Local database files
+*.db
+*.h2.db
+*.mv.db
+
+# Swagger
+swagger-ui.html
+doc.html
+
+# Dependency directories
+node_modules/
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.p12
+
+# Other
+*.bak
+*.tmp
+*.old
+*~
